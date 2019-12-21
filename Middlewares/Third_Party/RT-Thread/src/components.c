@@ -169,6 +169,7 @@ static rt_uint8_t main_stack[RT_MAIN_THREAD_STACK_SIZE];
 struct rt_thread main_thread;
 #endif
 
+
 /* the system main thread */
 void main_thread_entry(void *parameter)
 {
